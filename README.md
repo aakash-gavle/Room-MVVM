@@ -3,10 +3,12 @@ Room implementation on Android using Kotlin and one of it’s Coroutine feature 
 
 
 # plugins
+
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
 
 #dependencies
+
     def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
