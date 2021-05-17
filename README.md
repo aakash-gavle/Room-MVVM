@@ -7,7 +7,7 @@ Room implementation on Android using Kotlin and one of it’s Coroutine feature 
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
 
-#dependencies
+# dependencies
 
     def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"
